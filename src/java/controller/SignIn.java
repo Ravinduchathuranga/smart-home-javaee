@@ -50,7 +50,7 @@ public class SignIn extends HttpServlet {
                     resoObject.addProperty("message", "welcome");
                     resoObject.add("user", gson.toJsonTree(user));
                 } else {
-                    resoObject.addProperty("message", "Incorrect password! Please try again");
+                    resoObject.addProperty("message", "Incorrect email or password! Please try again");
                 }
             }
 
