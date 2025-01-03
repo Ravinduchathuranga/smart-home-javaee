@@ -11,7 +11,7 @@
         <property name="hibernate.connection.password">AirbusA330-300</property>
         <property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>
         <property name="hibernate.show_sql">true</property>        
-<!--        <mapping class="entity.user_status"/>
-        <mapping class="entity.chat_status"/>-->
+        <mapping class="entity.User"/>        
+        <mapping class="entity.Compornents"/>        
     </session-factory>
 </hibernate-configuration>
